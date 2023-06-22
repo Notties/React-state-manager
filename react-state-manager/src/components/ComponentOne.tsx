@@ -11,7 +11,7 @@ const ComponentOne = () => {
       <div>Firstname: {userData.firstName}</div>
       <div>Lastname: {userData.lastName}</div>
       <div>Productname: {userProduct.productname}</div>
-      <div>Product user name: {userProduct.username.firstName}</div>
+      <div>Product User: {userProduct.user.firstName}</div>
     </>
   );
 };

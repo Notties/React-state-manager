@@ -14,8 +14,8 @@ export const ProductInfo = atom({
 export const filterSelect = selector({
     key: 'filter',
     get: ({ get }) => {
-        const username = get(userInfo)
+        const user = get(userInfo)
         const productname = get(ProductInfo)
-        return { username, productname }
+        return { user, productname }
     }
 })
